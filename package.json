@@ -1,0 +1,16 @@
+{
+  "name": "task-30-node-http-server",
+  "version": "1.0.0",
+  "description": "A basic web server built with the Node.js http module that routes requests to different HTML pages.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node test/routes.test.js"
+  },
+  "keywords": ["nodejs", "http-module", "routing", "task-30"],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}

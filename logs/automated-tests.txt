@@ -1,0 +1,17 @@
+
+> task-30-node-http-server@1.0.0 test
+> node test/routes.test.js
+
+PASS  200 (expected 200)  /
+PASS  200 (expected 200)  /home
+PASS  200 (expected 200)  /about
+PASS  200 (expected 200)  /contact
+PASS  200 (expected 200)  /services
+PASS  200 (expected 200)  /styles.css
+PASS  200 (expected 200)  /public/styles.css
+PASS  200 (expected 200)  /home/
+PASS  404 (expected 404)  /no-such-page
+PASS  404 (expected 404)  /../../etc/passwd
+PASS  405 (expected 405)  POST /home
+
+All checks passed ✔

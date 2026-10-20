@@ -1,0 +1,17 @@
+== Task 30 — route status code checks (2026-10-20 20:05:33) ==
+
+GET /                    200
+GET /home                200
+GET /about               200
+GET /contact             200
+GET /services            200
+GET /styles.css          200
+GET /public/styles.css   200
+GET /does-not-exist      404
+GET /random/page         404
+
+POST /home               405
+
+-- Content-Type checks --
+/home              text/html; charset=utf-8
+/styles.css        text/css; charset=utf-8
